@@ -10,5 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func btnPressed(sender: UIButton) {
+        
+        print("Number Five")
+    }
  }
 
