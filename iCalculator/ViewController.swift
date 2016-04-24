@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblDisplayNumber: UILabel?
     @IBAction func btnPressed(sender: UIButton) {
         
-        print("Number Five")
+        let digitPressed = sender.currentTitle
+        
+        let displayDigitCurrent = lblDisplayNumber!.text
+        
+        lblDisplayNumber?.text = displayDigitCurrent! + digitPressed!
+        
+        
+        
+        
+       
     }
  }
 
