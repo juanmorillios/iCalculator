@@ -20,9 +20,7 @@ class ViewController: UIViewController {
         lblDisplayNumber?.text = displayDigitCurrent! + digitPressed!
         
         
-        
-        
-       
+
     }
  }
 
